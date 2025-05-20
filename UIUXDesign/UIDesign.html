@@ -10,9 +10,16 @@
 			<img src="images/UIDesign_01.jpg" width="100%" height="auto" alt=""></td>
 	</tr>
 	<tr>
-		<td style="width: 100%; height: 1200px; background-color: #faf9fc;">
-			<video src="video/ezgif.com-crop (1).mp4" autoplay controls style="display: block; margin:0 auto !important; width: 100%; max-width: 1920px;"></video>
-
+		<td style="background-color: #faf9fc; padding: 20px 0;">
+            <video src="video/ezgif.com-crop (1).mp4" autoplay controls loop muted
+                style="
+                    display: block; /* 블록 요소로 만들어 margin: auto가 작동하도록 함 */
+                    margin: 0 auto; /* 좌우 자동 여백으로 중앙 정렬 */
+                    max-width: 30vw; /* 뷰포트 너비의 30%를 최대 너비로 설정 */
+                    height: auto; /* 가로 비율에 맞춰 높이 자동 조절 */
+                    /* object-fit: contain;  세로캠 영상의 비율을 유지하며 여백 생성을 원치 않으면 제거 가능 */
+                ">
+            </video>
 		</td>
 	</tr>
 	<tr>
